@@ -3,16 +3,13 @@
  */
 package sheets;
 
+import com.google.api.client.json.JsonFactory;
+
 public class App {
-
-
-
 
     private static final String APPLICATION_NAME = "Google Sheets API Java Quickstart";
     private static final JsonFactory JSON_FACTORY = JacksonFactory.getDefaultInstance();
     private static final String TOKENS_DIRECTORY_PATH = "tokens";
-
-
 
     public String getGreeting() {
         return "Hello World!";
